@@ -1,4 +1,4 @@
-import type { UserProps } from "@/interfaces";
+import { UserProps } from "@/interfaces";
 
 const UserComponents: React.FC<UserProps> = (props) => {
 	return (
