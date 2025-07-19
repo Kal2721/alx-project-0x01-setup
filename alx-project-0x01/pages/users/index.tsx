@@ -23,6 +23,7 @@ const Users: React.FC<UserProps[]> = ({ posts }) => {
 		</div>
 	);
 }
+export default Users;
 
 export async function getStaticProps() {
 	const response = await fetch ("https://jsonplaceholder.typicode.com/users");
